@@ -16,7 +16,7 @@
 
 ## Setup/Installation Requirements
 
-*_Open your Github account_
+* _Open your Github account_
 * _Clone this repository_
 * _Open the repository in your favourite editor_
 * _Install python3.6 and above_
