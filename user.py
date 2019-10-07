@@ -31,7 +31,7 @@ class User:
     @classmethod
     def user_exist(cls,characters):
             """
-            user_exists method that checks is a user exists fro m the user list
+            user_exists method that checks is a user exists from the user list
             args:
             characters:password to search is nthe user exists 
             returns:
