@@ -37,3 +37,9 @@
 ## Contact Information
 
 * _Email:_ kipropalex59@gmail.com
+
+### License
+
+*This project is licensed under the MIT license.*
+
+Copyright (c) 2019 **_Alex Kiprop_**
