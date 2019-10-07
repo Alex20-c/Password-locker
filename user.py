@@ -29,7 +29,7 @@ class User:
 
         
         @classmethod
-        def user_exists(cls,characters):
+        def user_exist(cls,characters):
             """
             user_exists method that checks is a user exists fro m the user list
             args:
