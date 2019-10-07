@@ -23,7 +23,7 @@ class Credential:
         '''
         delete_credential method deletes a saved credential from the credential_list
         '''
-        Credential.credential_list.remove(self)
+        Credential.credentials_list.remove(self)
 
     @classmethod
     def find_by_account(cls,account):
@@ -35,7 +35,7 @@ class Credential:
             Credential of account that matches the account name.
         '''
 
-        for credential in cls.credential_list:
+        for credential in cls.credentials_list:
             if credential.account == account:
                 return credential
 
@@ -48,7 +48,7 @@ class Credential:
         Returns :
             Boolean: True or false depending if the credential exists
         '''
-        for credential in cls.credential_list:
+        for credential in cls.credentials_list:
             if credential.account == account:
                     return True
 
@@ -59,4 +59,4 @@ class Credential:
         """
         display_credentials method that returns the credential list
         """
-        return cls.credential_list
+        return cls.credentials_list
