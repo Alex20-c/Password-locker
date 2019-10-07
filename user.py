@@ -28,8 +28,8 @@ class User:
                 return user
 
         
-        @classmethod
-        def user_exist(cls,characters):
+    @classmethod
+    def user_exist(cls,characters):
             """
             user_exists method that checks is a user exists fro m the user list
             args:
